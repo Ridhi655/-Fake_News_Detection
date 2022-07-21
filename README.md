@@ -1,12 +1,12 @@
 Fake News Detection in Python
 
-In this project, we have used various natural language processing techniques and machine learning algorithms to classify fake news articles using sci-kit libraries from python.
+In this project, we have used various natural language processing techniques and machine learning algorithms to classify fake news articles using sci-kit and other different libraries from python.
 
 Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 Prerequisites
-What things you need to install the software and how to install them:
+What software you need to install and how to install them:
 
 Python 3.6
 This setup requires that your machine has python 3.6 installed on it. you can refer to this url https://www.python.org/downloads/ to download python. Once you have python downloaded and installed, you will need to setup PATH variables (if you want to run python program directly, detail instructions are below in how to run software section). To do that check this: https://www.pythoncentral.io/add-python-to-path-python-is-not-recognized-as-an-internal-or-external-command/.
@@ -27,7 +27,7 @@ conda install -c scikit-learn
 conda install -c anaconda numpy
 conda install -c anaconda scipy
 
-Or you can directly use goodle colab for the code.
+You can directly use google colab as IDE.
 
 Dataset used
 The data source used for this project is LIAR dataset which contains 3 files with .tsv format for test, train and validation. Below is some description about the data files used for this project.
